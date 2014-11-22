@@ -2,7 +2,7 @@
   "name": "dusk-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A dark syntax theme inspired by Xcode's Dusk theme for Atom.",
   "repository": "https://github.com/atom/dusk-syntax",
   "license": "MIT",
   "engines": {
