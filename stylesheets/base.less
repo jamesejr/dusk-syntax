@@ -66,13 +66,12 @@
 }
 
 .comment {
-  color: @light-gray;
+  color: lighten(@lime-green, 10%);
 }
 
 .entity {
   &.name.type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: @light-blue;
   }
 
   &.other.inherited-class {
@@ -81,10 +80,10 @@
 }
 
 .keyword {
-  color: @purple;
+  color: lighten(@dark-pink, 10%);
 
   &.control {
-    color: @purple;
+    color: lighten(@dark-pink, 10%);
   }
 
   &.operator {
@@ -96,23 +95,23 @@
   }
 
   &.other.unit {
-    color: @orange;
+    color: @light-purple;
   }
 }
 
 .storage {
-  color: @purple;
+  color: lighten(@dark-pink, 10%);
 }
 
 .constant {
   color: @orange;
 
   &.character.escape {
-    color: @cyan;
+    color: lighten(@light-red, 5%);
   }
 
   &.numeric {
-    color: @orange;
+    color: @light-purple;
   }
 
   &.other.color {
@@ -125,7 +124,7 @@
 }
 
 .variable {
-  color: @red;
+  color: @syntax-text-color;
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -142,11 +141,11 @@
 }
 
 .string {
-  color: @green;
+  color: lighten(@light-red, 5%);
 
 
   &.regexp {
-    color: @cyan;
+    color: lighten(@light-red, 5%);
 
     .source.ruby.embedded {
       color: @orange;
@@ -161,10 +160,13 @@
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @lime-green;
     }
 
-    &.string,
+    &.string {
+      color: lighten(@light-red, 5%);
+    }
+
     &.variable,
     &.parameters,
     &.array {
@@ -202,18 +204,18 @@
     color: @cyan;
 
     &.any-method {
-      color: @blue;
+      color: @syntax-text-color;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @blue;
+    color: @syntax-text-color;
   }
 
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: @orange;
   }
 
   &.name.section {
