@@ -1,0 +1,23 @@
+.source.c, .source.c\+\+ {
+  .meta.preprocessor {
+    color: @orange;
+  }
+  .keyword.control.import {
+    color: @orange;
+  }
+  .constant {
+    &.language.c {
+      color: lighten(@dark-pink, 10%);
+    }
+  }
+  .entity {
+    &.name.function.preprocessor {
+      color: @orange;
+    }
+  }
+  .variable {
+    &.parameter.preprocessor {
+      color: @orange;
+    }
+  }
+}

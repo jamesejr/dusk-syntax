@@ -80,10 +80,10 @@
 }
 
 .keyword {
-  color: lighten(@dark-pink, 10%);
+  color: lighten(@dark-pink, 20%);
 
   &.control {
-    color: lighten(@dark-pink, 10%);
+    color: lighten(@dark-pink, 20%);
   }
 
   &.operator {
@@ -95,23 +95,23 @@
   }
 
   &.other.unit {
-    color: @light-purple;
+    color: lighten(@light-purple, 10%);
   }
 }
 
 .storage {
-  color: lighten(@dark-pink, 10%);
+  color: lighten(@dark-pink, 20%);
 }
 
 .constant {
-  color: @orange;
+  color: lighten(@light-red, 5%);
 
   &.character.escape {
     color: lighten(@light-red, 5%);
   }
 
   &.numeric {
-    color: @light-purple;
+    color: lighten(@light-purple, 10%);
   }
 
   &.other.color {
@@ -201,7 +201,7 @@
   }
 
   &.function  {
-    color: @cyan;
+    color: @syntax-text-color;
 
     &.any-method {
       color: @syntax-text-color;
