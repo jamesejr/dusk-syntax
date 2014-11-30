@@ -1,0 +1,44 @@
+.source.css {
+  .entity.name {
+    color: lighten(@dark-pink, 20%);
+  }
+  .punctuation.definition {
+    &.entity {
+      color: @syntax-text-color;
+    }
+    &.constant {
+      color: @syntax-text-color;
+    }
+  }
+  .variable {
+    color: @syntax-text-color;
+  }
+  .attribute-name.class {
+    color: lighten(@dark-pink, 20%);
+  }
+  .property-name {
+    color: @light-blue;
+  }
+  .property-value {
+    color: @syntax-text-color;
+  }
+  .support.function {
+    color: @orange;
+  }
+  .rgb-value {
+    color: @syntax-text-color;
+  }
+  .id {
+    color: @purple;
+  }
+  .pseudo-element {
+    color: @syntax-text-color;
+  }
+  .pseudo-class {
+    color: @blue;
+
+    &.attribute-name {
+      color: @syntax-text-color;
+    }
+  }
+}
