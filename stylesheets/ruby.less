@@ -1,0 +1,25 @@
+.source.ruby {
+  .meta.embedded {
+    .punctuation.section {
+      color: lighten(@light-red, 5%);
+    }
+  }
+  .constant {
+    color: @orange;
+
+    &.numeric {
+      color: lighten(@light-purple, 10%);
+    }
+  }
+  .variable {
+    &.parameter {
+      color: @syntax-text-color;
+    }
+  }
+  .special-method {
+    color: lighten(@dark-pink, 20%);
+  }
+  .symbol {
+    color: @orange;
+  }
+}
