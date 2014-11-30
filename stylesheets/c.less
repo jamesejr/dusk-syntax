@@ -6,8 +6,12 @@
     color: @orange;
   }
   .constant {
+    color: lighten(@light-red, 5%);
     &.language.c {
       color: lighten(@dark-pink, 10%);
+    }
+    &.numeric {
+      color: lighten(@light-purple, 10%);
     }
   }
   .entity {

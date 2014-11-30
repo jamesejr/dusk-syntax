@@ -71,11 +71,11 @@
 
 .entity {
   &.name.type {
-    color: @light-blue;
+    color: @syntax-text-color;
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @light-blue;
   }
 }
 
@@ -104,7 +104,7 @@
 }
 
 .constant {
-  color: lighten(@light-red, 5%);
+  color: lighten(@dark-pink, 20%);
 
   &.character.escape {
     color: lighten(@light-red, 5%);
@@ -197,7 +197,7 @@
 
 .support {
   &.class {
-    color: @light-orange;
+    color: @light-blue;
   }
 
   &.function  {
@@ -215,7 +215,7 @@
   }
 
   &.name.class, &.name.type.class {
-    color: @orange;
+    color: @light-blue;
   }
 
   &.name.section {
@@ -223,12 +223,11 @@
   }
 
   &.name.tag {
-    color: @red;
-    text-decoration: underline;
+    color: @syntax-text-color;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @syntax-text-color;
 
     &.id {
       color: @blue;
