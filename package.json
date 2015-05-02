@@ -1,7 +1,7 @@
 {
   "name": "dusk-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark syntax theme inspired by Xcode's Dusk theme for Atom.",
   "repository": "https://github.com/jamesejr/dusk-syntax",
   "license": "MIT",
