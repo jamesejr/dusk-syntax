@@ -1,26 +1,26 @@
-atom-text-editor, :host {
-  .gfm {
-    .markup.italic {
+atom-text-editor, atom-text-editor {
+  .syntax--gfm {
+    .syntax--markup.syntax--italic {
       font-style: italic;
     }
 
-    .markup.bold {
+    .syntax--markup.syntax--bold {
       font-weight: bold;
     }
 
-    .link {
+    .syntax--link {
       color: white;
     }
 
-    .link .entity {
+    .syntax--link .syntax--entity {
       color: @light-blue;
     }
 
-    .raw {
+    .syntax--raw {
       font-style: italic;
     }
 
-    &.support {
+    &.syntax--support {
       color: @orange;
     }
   }

@@ -1,26 +1,26 @@
-.source.c, .source.c\+\+ {
-  .meta.preprocessor {
+.syntax--source.syntax--c .syntax--meta.syntax--preprocessor, .syntax--source.c\+\+ {
+  .syntax--meta.syntax--preprocessor {
     color: @orange;
   }
-  .keyword.control.import {
+  .syntax--keyword.syntax--control.syntax--import {
     color: @orange;
   }
-  .constant {
+  .syntax--constant {
     color: lighten(@light-red, 5%);
-    &.language.c {
+    &.syntax--language.syntax--c {
       color: lighten(@dark-pink, 10%);
     }
-    &.numeric {
+    &.syntax--numeric {
       color: lighten(@light-purple, 10%);
     }
   }
-  .entity {
-    &.name.function.preprocessor {
+  .syntax--entity {
+    &.syntax--name.syntax--function.syntax--preprocessor {
       color: @orange;
     }
   }
-  .variable {
-    &.parameter.preprocessor {
+  .syntax--variable {
+    &.syntax--parameter.syntax--preprocessor {
       color: @orange;
     }
   }
